@@ -21,4 +21,4 @@ spin = "0.9"
 log = "0.4"
 axdriver_base = { workspace = true }
 ixgbe-driver = { git = "https://github.com/KuangjuX/ixgbe-driver.git", rev = "8e5eb74", optional = true}
-igb-driver = { git = "https://github.com/Jasonhonghh/igb-driver",branch = "igb-dev", optional = true}
+igb-driver = { git = "https://github.com/Jasonhonghh/igb-driver",branch = "igb-dev1", optional = true}
