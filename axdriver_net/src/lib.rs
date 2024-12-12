@@ -7,6 +7,9 @@
 #[cfg(feature = "ixgbe")]
 /// ixgbe NIC device driver.
 pub mod ixgbe;
+#[cfg(feature = "igb")]
+/// igb NIC device driver.
+pub mod igb;
 mod net_buf;
 
 use core::ptr::NonNull;
